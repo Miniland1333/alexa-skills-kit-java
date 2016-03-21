@@ -1,0 +1,25 @@
+GoingToCollege where is {Person} going to college
+GoingToCollege where is {Person} going
+GoingToCollege where is {Person} planning on going
+GoingToCollege where is {Person} planning on going to
+GoingToCollege where is {Person} planning on going to college
+GoingToCollege {Person}
+GoingToCollege what college is {Person} planning to go to
+GoingToCollege where is {Person} planning to go to
+GoingToCollege where is {Person} planning to go
+GoingToCollege where is {Person} planning to
+
+GoingToCollege where {Person} is going to college
+GoingToCollege where {Person} is going
+GoingToCollege where {Person} plans on going
+GoingToCollege where {Person} plans on going to
+GoingToCollege where {Person} plans on going to college
+GoingToCollege where {Person} is planning to go to
+GoingToCollege where {Person} is planning to go
+GoingToCollege where {Person} is planning to
+
+
+AdafruitIOset go to {Color} alert
+
+AdafruitIOget what is the alert status
+AdafruitIOget what is the current alert status

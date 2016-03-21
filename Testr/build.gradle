@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+group = "testr"
+version = '1.0'
+
+compileJava {
+    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_1_8
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}

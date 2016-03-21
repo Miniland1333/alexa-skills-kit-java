@@ -1,0 +1,1 @@
+ffmpeg -y -i input.m4a -ar 16000 -ab 48k -codeca libmp3lame -ac 1  output.mp3

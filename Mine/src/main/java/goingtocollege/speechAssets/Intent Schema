@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "GoingToCollege",
+      "slots": [
+        {
+          "name": "Person",
+          "type": "PERSON_PAIRINGS"
+        }
+      ]
+    },
+    {
+      "intent": "AdafruitIOset",
+      "slots": [
+        {
+          "name": "Color",
+          "type": "LIST_OF_COLORS"
+        }
+      ]
+    },
+    {
+      "intent": "AdafruitIOget"
+    }
+  ]
+}
