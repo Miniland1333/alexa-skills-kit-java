@@ -1,1 +1,5 @@
 ffmpeg -y -i input.m4a -ar 16000 -ab 48k -codeca libmp3lame -ac 1  output.mp3
+
+
+Secret:
+ffmpeg -i input.wav -codec:a libmp3lame -qscale:a 2 output.mp3

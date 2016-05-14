@@ -15,6 +15,7 @@ import com.amazon.speech.speechlet.*;
 import com.amazon.speech.ui.Image;
 import com.amazon.speech.ui.*;
 import goingtocollege.speechAssets.ListParings;
+import org.apache.commons.lang3.text.WordUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.testr.AdafruitREST;
@@ -125,6 +126,7 @@ public class GoingToCollegeSpeechlet implements Speechlet {
         StandardCard card = new StandardCard();
 
         String answer = personParings.get(person.toLowerCase());
+        WordUtils.capitalizeFully(person);
 
         switch (answer) {
             case "UNKNOWN":
@@ -156,7 +158,9 @@ public class GoingToCollegeSpeechlet implements Speechlet {
         PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
         speech.setText(speechText);
 
-        if (isAskResponse) {
+        //noinspection Duplicates
+        if (isAskResponse)
+        {
             // Create reprompt
             PlainTextOutputSpeech repromptSpeech = new PlainTextOutputSpeech();
             repromptSpeech.setText(repromptText);
