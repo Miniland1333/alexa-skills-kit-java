@@ -3,12 +3,21 @@ apply plugin: 'java'
 group = "testr"
 version = '1.0'
 
+repositories {
+    //All sub-projects will now refer to the same 'libs' directory
+    flatDir {
+        dirs "$rootDir/libs"
+    }
+    jcenter()
+    mavenCentral()
+}
+
 compileJava {
     targetCompatibility = JavaVersion.VERSION_1_8
     sourceCompatibility = JavaVersion.VERSION_1_8
 }
 
-repositories {
-    jcenter()
-    mavenCentral()
+
+dependencies {
+    compile fileTree(dir:"$rootDir/libs", include: '*.jar')
 }

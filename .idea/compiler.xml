@@ -18,5 +18,15 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alexa-skills-kit-java_main" target="1.8" />
+      <module name="alexa-skills-kit-java_test" target="1.8" />
+      <module name="Mine_main" target="1.8" />
+      <module name="Mine_test" target="1.8" />
+      <module name="samples_main" target="1.8" />
+      <module name="samples_test" target="1.8" />
+      <module name="Testr_main" target="1.8" />
+      <module name="Testr_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

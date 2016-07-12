@@ -15,14 +15,6 @@
           </set>
         </option>
         <option name="useAutoImport" value="true" />
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Mine" />
-            <option value="$PROJECT_DIR$/Testr" />
-            <option value="$PROJECT_DIR$/samples" />
-          </set>
-        </option>
       </GradleProjectSettings>
     </option>
   </component>
