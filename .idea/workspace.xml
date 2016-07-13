@@ -5,87 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11eed910-493f-44e3-af89-7cae2b03a767" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Mine/Mine.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Mine/Mine_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Mine/Mine_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Testr/Testr.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Testr/Testr_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/Testr/Testr_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/alexa-skills-kit-java.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/samples/samples.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/samples/samples_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/samples/samples_test.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Testr/Testr.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/alexa-skills-kit-java.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/AdafruitREST.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/alexa-skills-kit-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/aws-java-sdk-core-1.9.40.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/aws-java-sdk-dynamodb-1.9.40.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/aws-java-sdk-kms-1.9.40.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/aws-java-sdk-s3-1.9.40.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/aws-lambda-java-core-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/commons-codec-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/commons-lang3-3.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/commons-logging-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/httpclient-4.3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/httpcore-4.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/jackson-annotations-2.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/jackson-core-2.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/jackson-databind-2.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/javax.servlet-3.0.0.v201112011016.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/jetty-http-9.0.6.v20130930.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/jetty-io-9.0.6.v20130930.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/jetty-security-9.0.6.v20130930.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/jetty-server-9.0.6.v20130930.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/jetty-servlet-9.0.6.v20130930.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/jetty-util-6.1.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/jetty-util-9.0.6.v20130930.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/joda-time-2.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/libs/slf4j-api-1.7.10.jar" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/AdafruitREST.jar" afterPath="$PROJECT_DIR$/libs/AdafruitREST.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/JSON.jar" afterPath="$PROJECT_DIR$/libs/JSON.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/alexa-skills-kit-1.1.3.jar" afterPath="$PROJECT_DIR$/libs/alexa-skills-kit-1.1.3.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/aws-java-sdk-core-1.9.40.jar" afterPath="$PROJECT_DIR$/libs/aws-java-sdk-core-1.9.40.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/aws-java-sdk-dynamodb-1.9.40.jar" afterPath="$PROJECT_DIR$/libs/aws-java-sdk-dynamodb-1.9.40.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/aws-java-sdk-kms-1.9.40.jar" afterPath="$PROJECT_DIR$/libs/aws-java-sdk-kms-1.9.40.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/aws-java-sdk-s3-1.9.40.jar" afterPath="$PROJECT_DIR$/libs/aws-java-sdk-s3-1.9.40.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/aws-lambda-java-core-1.0.0.jar" afterPath="$PROJECT_DIR$/libs/aws-lambda-java-core-1.0.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/commons-codec-1.3.jar" afterPath="$PROJECT_DIR$/libs/commons-codec-1.3.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/commons-io-2.4.jar" afterPath="$PROJECT_DIR$/libs/commons-io-2.4.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/commons-lang3-3.3.2.jar" afterPath="$PROJECT_DIR$/libs/commons-lang3-3.3.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/commons-logging-1.1.3.jar" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.3.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/httpclient-4.3.4.jar" afterPath="$PROJECT_DIR$/libs/httpclient-4.3.4.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/httpcore-4.3.2.jar" afterPath="$PROJECT_DIR$/libs/httpcore-4.3.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/jackson-annotations-2.3.0.jar" afterPath="$PROJECT_DIR$/libs/jackson-annotations-2.3.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/jackson-core-2.3.2.jar" afterPath="$PROJECT_DIR$/libs/jackson-core-2.3.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/jackson-databind-2.3.2.jar" afterPath="$PROJECT_DIR$/libs/jackson-databind-2.3.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/javax.servlet-3.0.0.v201112011016.jar" afterPath="$PROJECT_DIR$/libs/javax.servlet-3.0.0.v201112011016.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/jetty-http-9.0.6.v20130930.jar" afterPath="$PROJECT_DIR$/libs/jetty-http-9.0.6.v20130930.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/jetty-io-9.0.6.v20130930.jar" afterPath="$PROJECT_DIR$/libs/jetty-io-9.0.6.v20130930.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/jetty-security-9.0.6.v20130930.jar" afterPath="$PROJECT_DIR$/libs/jetty-security-9.0.6.v20130930.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/jetty-server-9.0.6.v20130930.jar" afterPath="$PROJECT_DIR$/libs/jetty-server-9.0.6.v20130930.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/jetty-servlet-9.0.6.v20130930.jar" afterPath="$PROJECT_DIR$/libs/jetty-servlet-9.0.6.v20130930.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/jetty-util-6.1.25.jar" afterPath="$PROJECT_DIR$/libs/jetty-util-6.1.25.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/jetty-util-9.0.6.v20130930.jar" afterPath="$PROJECT_DIR$/libs/jetty-util-9.0.6.v20130930.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/joda-time-2.9.2.jar" afterPath="$PROJECT_DIR$/libs/joda-time-2.9.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/log4j-1.2.17.jar" afterPath="$PROJECT_DIR$/libs/log4j-1.2.17.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mine/libs/slf4j-api-1.7.10.jar" afterPath="$PROJECT_DIR$/libs/slf4j-api-1.7.10.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/slf4j-simple-1.7.21.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/AdafruitREST.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/AdafruitREST.xml" afterPath="$PROJECT_DIR$/.idea/libraries/AdafruitREST.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Mine/Mine_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Mine/Mine_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Mine/Mine_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Mine/Mine_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Testr/Testr_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Testr/Testr_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Testr/Testr_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Testr/Testr_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/samples/samples_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/samples/samples_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/samples/samples_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/samples/samples_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mine/build.gradle" afterPath="$PROJECT_DIR$/Mine/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testr/build.gradle" afterPath="$PROJECT_DIR$/Testr/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/build.gradle" afterPath="$PROJECT_DIR$/samples/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mine/src/main/java/goingtocollege/GoingToCollegeSpeechlet.java" afterPath="$PROJECT_DIR$/Mine/src/main/java/goingtocollege/GoingToCollegeSpeechlet.java" />
     </list>
     <ignored path="alexa-skills-kit-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -147,39 +81,21 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mine/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="625">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/build.gradle">
+      <file leaf-file-name="GoingToCollegeSpeechlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mine/src/main/java/goingtocollege/GoingToCollegeSpeechlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Testr/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Launcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mine/src/main/java/Launcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="318">
+              <caret line="205" column="12" selection-start-line="205" selection-start-column="12" selection-end-line="205" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,6 +103,12 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Henry Agnew" />
+        <option value="Henry Ag" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -734,7 +656,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7341462402495" />
+        <entry key="$PROJECT_DIR$" value="7341556887540" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -919,7 +841,6 @@
         <option value="$PROJECT_DIR$/Mine/src/main/java/goingtocollege/speechAssets/Intent Schema" />
         <option value="$PROJECT_DIR$/Mine/src/main/java/goingtocollege/speechAssets/Sample Utterances" />
         <option value="$PROJECT_DIR$/Testr/src/main/java/com/testr/AdafruitREST.java" />
-        <option value="$PROJECT_DIR$/Mine/src/main/java/goingtocollege/GoingToCollegeSpeechlet.java" />
         <option value="$PROJECT_DIR$/Mine/libs/commons-lang3-3.3.2.jar!/org/apache/commons/lang3/text/WordUtils.class" />
         <option value="$PROJECT_DIR$/Mine/src/main/java/goingtocollege/speechAssets/ListParings.java" />
         <option value="$PROJECT_DIR$/Mine/src/main/java/goingtocollege/speechAssets/Persons.txt" />
@@ -927,6 +848,7 @@
         <option value="$PROJECT_DIR$/Testr/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/Mine/build.gradle" />
+        <option value="$PROJECT_DIR$/Mine/src/main/java/goingtocollege/GoingToCollegeSpeechlet.java" />
       </list>
     </option>
   </component>
@@ -978,6 +900,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1010,13 +933,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Testr" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane />
@@ -1024,7 +946,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1034,16 +956,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Henry\Desktop\rogramming\alexa-skills-kit-java\libs" />
+      <recent name="C:\Users\Henry\Desktop\alexa-skills-kit-java\Mine\build\libs" />
+      <recent name="C:\Users\Henry\Desktop\alexa-skills-kit-java\samples" />
+      <recent name="C:\Users\Henry\Desktop\alexa-skills-kit-java\Mine" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Henry\Desktop\rogramming\alexa-skills-kit-java" />
       <recent name="C:\Users\Henry\Desktop\alexa-skills-kit-java\Mine\libs" />
       <recent name="C:\Users\Henry\Desktop\alexa-skills-kit-java" />
       <recent name="C:\Users\Henry\Desktop\alexa-skills-kit-java\Testr" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Henry\Desktop\alexa-skills-kit-java\Mine\build\libs" />
-      <recent name="C:\Users\Henry\Desktop\alexa-skills-kit-java\samples" />
-      <recent name="C:\Users\Henry\Desktop\alexa-skills-kit-java\Mine" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Build Mine">
@@ -1383,6 +1306,14 @@
       <workItem from="1463264125843" duration="462000" />
       <workItem from="1463264689228" duration="75000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed stream to Colors of the Wind">
+      <created>1468388868572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1468388868572</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1390,7 +1321,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1398,13 +1329,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3461063" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3461063" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3461063" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6143387" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1414,11 +1343,13 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6143387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1431,6 +1362,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed stream to Colors of the Wind" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed stream to Colors of the Wind" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1662,13 +1597,6 @@
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Mine/libs/commons-lang3-3.3.2.jar!/org/apache/commons/lang3/text/WordUtils.class" />
-    <entry file="file://$PROJECT_DIR$/Mine/src/main/java/goingtocollege/GoingToCollegeSpeechlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2900">
-          <caret line="137" column="40" selection-start-line="137" selection-start-column="40" selection-end-line="137" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mine/src/main/java/goingtocollege/speechAssets/ListParings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
@@ -1683,19 +1611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mine/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2325">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1703,7 +1622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1715,27 +1633,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mine/src/main/java/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="99" selection-start-line="0" selection-start-column="99" selection-end-line="0" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mine/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1752,6 +1653,42 @@
         <state relative-caret-position="325">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mine/src/main/java/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mine/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mine/src/main/java/goingtocollege/GoingToCollegeSpeechlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="205" column="12" selection-start-line="205" selection-start-column="12" selection-end-line="205" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1808,7 +1745,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>alexa-skills-kit-java</last-edited>
+          <last-edited>Mine</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1832,7 +1769,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>AdafruitREST</last-edited>
+          <last-edited>Gradle: org.slf4j:slf4j-api:1.7.21</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

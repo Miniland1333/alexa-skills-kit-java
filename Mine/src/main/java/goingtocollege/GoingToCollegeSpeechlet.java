@@ -188,7 +188,7 @@ public class GoingToCollegeSpeechlet implements Speechlet {
             int g = color.getGreen();
             int b = color.getBlue();
             String hex = String.format("#%02x%02x%02x", r, g, b);
-            AdafruitREST.post("welcome-feed",hex);
+            AdafruitREST.post("colors-of-the-wind",hex);
 
             // Create the plain text output.
             PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
@@ -208,7 +208,7 @@ public class GoingToCollegeSpeechlet implements Speechlet {
         return null;
     }
     private SpeechletResponse getAdafruit(final Intent intent,final Session session) {
-        String color = AdafruitREST.get("welcome-feed");
+        String color = AdafruitREST.get("colors-of-the-wind");
         String speechText;
         String cardText;
 
