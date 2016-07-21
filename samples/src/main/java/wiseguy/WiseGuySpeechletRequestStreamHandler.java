@@ -32,7 +32,7 @@ public class WiseGuySpeechletRequestStreamHandler extends SpeechletRequestStream
          * Alexa Skill and put the relevant Application Ids in this Set.
          */
         supportedApplicationIds = new HashSet<String>();
-        // supportedApplicationIds.add("amzn1.echo-sdk-ams.app.[unique-value-here]");
+        supportedApplicationIds.add("amzn1.ask.skill.1988a1b2-1ce3-4a84-a3eb-c017382cf93c");
     }
 
     public WiseGuySpeechletRequestStreamHandler() {
