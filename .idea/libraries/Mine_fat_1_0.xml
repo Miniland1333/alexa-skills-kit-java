@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Mine-fat-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Mine/build/libs/Mine-fat-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
