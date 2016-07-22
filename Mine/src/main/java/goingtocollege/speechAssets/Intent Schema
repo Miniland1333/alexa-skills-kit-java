@@ -23,6 +23,15 @@
     },
     {
       "intent": "AdafruitIOget"
+    },
+    {
+      "intent": "setSwitch",
+      "slots": [
+        {
+          "name": "State",
+          "type": "State"
+        }
+      ]
     }
   ]
 }

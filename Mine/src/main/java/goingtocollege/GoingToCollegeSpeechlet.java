@@ -62,8 +62,10 @@ public class GoingToCollegeSpeechlet implements Speechlet {
             return getCollegeResponse(intent, session);
         } else if ("AdafruitIOset".equals(intentName)){
             return setAdafruit(intent, session);
-        } else if ("AdafruitIOget".equals(intentName)){
+        } else if ("AdafruitIOget".equals(intentName)) {
             return getAdafruit(intent, session);
+        } else if ("setSwitch".equals(intentName)){
+            return setSwitch(intent, session);
         } else if ("AMAZON.StopIntent".equals(intentName)) {
             PlainTextOutputSpeech outputSpeech = new PlainTextOutputSpeech();
             outputSpeech.setText("Goodbye");
@@ -174,7 +176,31 @@ public class GoingToCollegeSpeechlet implements Speechlet {
         }
     }
 
+    private SpeechletResponse setSwitch(final Intent intent, final Session session){
+        String state = intent.getSlot("State").getValue();
+        state = state.toUpperCase();
+        log.info(state);
+        String speechText;
+        String cardText;
+        try{
+            AdafruitREST.post("state",state);
 
+            // Create the plain text output.
+            PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
+            speechText = "I turned the lights "+state;
+            speech.setText(speechText);
+
+            // Create the Simple card content.
+            cardText = "I turned the lights "+state;
+            SimpleCard card = new SimpleCard();
+            card.setTitle("Status");
+            card.setContent(cardText);
+
+            return SpeechletResponse.newTellResponse(speech, card);
+
+        }catch (Exception ignored){}
+        return null;
+    }
     private SpeechletResponse setAdafruit(final Intent intent,final Session session) {
         String inputColor=intent.getSlot("Color").getValue();
         String speechText;
@@ -192,11 +218,11 @@ public class GoingToCollegeSpeechlet implements Speechlet {
 
             // Create the plain text output.
             PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
-            speechText = "The system is currently at "+inputColor+" alert.";
+            speechText = "The lights are currently "+inputColor+".";
             speech.setText(speechText);
 
             // Create the Simple card content.
-            cardText = "The system is currently at "+inputColor+" alert.";
+            cardText = "The lights are currently "+inputColor+".";
             SimpleCard card = new SimpleCard();
             card.setTitle("Status");
             card.setContent(cardText);
@@ -214,11 +240,11 @@ public class GoingToCollegeSpeechlet implements Speechlet {
 
         // Create the plain text output.
         PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
-        speechText = "The system is currently at "+color+" alert.";
+        speechText = "The lights are currently "+color+".";
         speech.setText(speechText);
 
         // Create the Simple card content.
-        cardText = "The system is currently at "+color+" alert.";
+        cardText = "The lights are currently "+color+".";
         SimpleCard card = new SimpleCard();
         card.setTitle("Status");
         card.setContent(cardText);

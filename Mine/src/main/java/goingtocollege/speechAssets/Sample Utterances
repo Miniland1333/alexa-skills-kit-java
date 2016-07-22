@@ -20,6 +20,23 @@ GoingToCollege where {Person} is planning to
 
 
 AdafruitIOset go to {Color} alert
+AdafruitIOset make the lights {Color}
+AdafruitIOset make them {Color}
+AdafruitIOset {Color}
+
+setSwitch turn the light {State}
+setSwitch turn the lights {State}
+setSwitch turn {State} the light
+setSwitch turn {State} the lights
+setSwitch turn them {State}
+setSwitch turn {State}
+setSwitch to turn the light {State}
+setSwitch to turn the lights {State}
+setSwitch to turn {State} the light
+setSwitch to turn {State} the lights
+setSwitch to turn them {State}
+setSwitch to turn {State}
 
 AdafruitIOget what is the alert status
 AdafruitIOget what is the current alert status
+AdafruitIOget what is the current color
