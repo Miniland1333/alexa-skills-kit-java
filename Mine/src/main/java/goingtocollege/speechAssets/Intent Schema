@@ -32,6 +32,19 @@
           "type": "State"
         }
       ]
+    },
+    {
+      "intent": "AdafruitIOBoth",
+      "slots": [
+        {
+          "name": "Color",
+          "type": "LIST_OF_COLORS"
+        },
+        {
+          "name": "State",
+          "type": "State"
+        }
+      ]
     }
   ]
 }

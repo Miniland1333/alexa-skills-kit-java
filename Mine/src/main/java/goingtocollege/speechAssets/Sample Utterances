@@ -40,3 +40,53 @@ setSwitch to turn {State}
 AdafruitIOget what is the alert status
 AdafruitIOget what is the current alert status
 AdafruitIOget what is the current color
+
+
+
+AdafruitIOBoth turn the light {State} and make them {Color}
+AdafruitIOBoth turn the lights {State} and make them {Color}
+AdafruitIOBoth turn {State} the light and make them {Color}
+AdafruitIOBoth turn {State} the lights and make them {Color}
+AdafruitIOBoth turn them {State} and make them {Color}
+
+AdafruitIOBoth turn the light {State} and to make them {Color}
+AdafruitIOBoth turn the lights {State} and to make them {Color}
+AdafruitIOBoth turn {State} the light and to make them {Color}
+AdafruitIOBoth turn {State} the lights and to make them {Color}
+AdafruitIOBoth turn them {State} and to make them {Color}
+
+AdafruitIOBoth to turn the light {State} and make them {Color}
+AdafruitIOBoth to turn the lights {State} and make them {Color}
+AdafruitIOBoth to turn {State} the light and make them {Color}
+AdafruitIOBoth to turn {State} the lights and make them {Color}
+AdafruitIOBoth to turn them {State} and make them {Color}
+
+AdafruitIOBoth to turn the light {State} and to make them {Color}
+AdafruitIOBoth to turn the lights {State} and to make them {Color}
+AdafruitIOBoth to turn {State} the light and to make them {Color}
+AdafruitIOBoth to turn {State} the lights and to make them {Color}
+AdafruitIOBoth to turn them {State} and to make them {Color}
+
+AdafruitIOBoth turn the light {State} and make it {Color}
+AdafruitIOBoth turn the lights {State} and make it {Color}
+AdafruitIOBoth turn {State} the light and make it {Color}
+AdafruitIOBoth turn {State} the lights and make it {Color}
+AdafruitIOBoth turn them {State} and make it {Color}
+
+AdafruitIOBoth turn the light {State} and to make it {Color}
+AdafruitIOBoth turn the lights {State} and to make it {Color}
+AdafruitIOBoth turn {State} the light and to make it {Color}
+AdafruitIOBoth turn {State} the lights and to make it {Color}
+AdafruitIOBoth turn them {State} and to make it {Color}
+
+AdafruitIOBoth to turn the light {State} and make it {Color}
+AdafruitIOBoth to turn the lights {State} and make it {Color}
+AdafruitIOBoth to turn {State} the light and make it {Color}
+AdafruitIOBoth to turn {State} the lights and make it {Color}
+AdafruitIOBoth to turn them {State} and make it {Color}
+
+AdafruitIOBoth to turn the light {State} and to make it {Color}
+AdafruitIOBoth to turn the lights {State} and to make it {Color}
+AdafruitIOBoth to turn {State} the light and to make it {Color}
+AdafruitIOBoth to turn {State} the lights and to make it {Color}
+AdafruitIOBoth to turn them {State} and to make it {Color}
