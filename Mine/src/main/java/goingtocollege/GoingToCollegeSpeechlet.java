@@ -23,6 +23,7 @@ import com.testr.AdafruitREST;
 import java.awt.*;
 import java.lang.reflect.Field;
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * This sample shows how to create a simple speechlet for handling speechlet requests.
@@ -57,6 +58,7 @@ public class GoingToCollegeSpeechlet implements Speechlet {
 
         Intent intent = request.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
+        log.debug(intentName);
 
         if ("GoingToCollege".equals(intentName)) {
             return getCollegeResponse(intent, session);
